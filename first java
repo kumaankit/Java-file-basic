@@ -1,0 +1,18 @@
+public class first {
+
+	// variable
+	// method
+	
+	
+	
+	// main function- mandatory function- It entry point of the program
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      
+		
+		// code
+		System.out.println("Hello java");
+	}
+
+}
