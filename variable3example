@@ -1,0 +1,18 @@
+public class variable3example {
+
+	static int x=10;
+	 void dis()
+	{
+		System.out.println(x);
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		variable3example ref= new variable3example();
+		ref.dis();
+
+	
+	}
+
+}
