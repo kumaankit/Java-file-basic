@@ -1,0 +1,21 @@
+public class variable2example {
+
+	static int x=10;
+	int y=20;
+	void sum() {
+		int z=50;
+	
+	
+	System.out.println(x+" "+y+" "+z);
+	
+	}	
+	
+	
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	variable2example ref= new variable2example();
+	ref.sum();
+		
+	}
+
+}
