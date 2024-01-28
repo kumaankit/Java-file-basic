@@ -1,0 +1,20 @@
+public class varible1stexample {
+       static int b=20;// static variable
+       int c=30;// instance variable
+	
+       
+       public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     
+    	   int a=10;// local variable- It's written inside the main method & to access this we can call directly.
+      
+    	   System.out.println(a);
+     
+    	   System.out.println(varible1stexample.b); //to call static variable we put class.variable
+      
+    	   varible1stexample ref = new varible1stexample();
+      
+    	   System.out.println(ref.c);// to call the instance variable we create object first then we call instance variable through object.
+	}
+
+}
