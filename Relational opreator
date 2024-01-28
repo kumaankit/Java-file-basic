@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Relational {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int a,b;
+		 
+		System.out.println("Enter two number");
+		 Scanner obj = new Scanner (System.in);
+		  a= obj.nextInt();
+		  b= obj.nextInt();
+		  
+		  System.out.println("True/False = " +(a>b));
+		  System.out.println("True/False = " +(a<b));
+		  System.out.println("True/False = " +(a>=b));
+		  System.out.println("True/False = " +(a<=b));
+		  System.out.println("True/False = " +(a==b));
+		  System.out.println("True/False = " +(a!=b));
+		  
+	}
+
+}
